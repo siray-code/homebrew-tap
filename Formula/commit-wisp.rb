@@ -1,26 +1,26 @@
 class CommitWisp < Formula
   desc "Reviewable, token-aware AI commit messages from staged changes"
   homepage "https://github.com/siray-code/commit-wisp"
-  version "0.3.2"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/siray-code/commit-wisp/releases/download/v0.3.2/commit-wisp-aarch64-apple-darwin.tar.gz"
-      sha256 "982d0dc723c4b9e5b42cd53434cb25d891a7cbc8c46a09b57770902c009ade8a"
+      url "https://github.com/siray-code/commit-wisp/releases/download/v1.0.0/commit-wisp-aarch64-apple-darwin.tar.gz"
+      sha256 "358f7fe7054645b7b368d61d6edd3eac676e6453f2cf6c0afd4b828f8d14a2ef"
     else
-      url "https://github.com/siray-code/commit-wisp/releases/download/v0.3.2/commit-wisp-x86_64-apple-darwin.tar.gz"
-      sha256 "5dfd78b1a04fa36c2b066ee484c213027c89cc2d57aef0b989be98778e9abcfe"
+      url "https://github.com/siray-code/commit-wisp/releases/download/v1.0.0/commit-wisp-x86_64-apple-darwin.tar.gz"
+      sha256 "f73c2a3e070ba19d98d0b004815f0b31832c587755fada8cf8813eca2b07ee34"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/siray-code/commit-wisp/releases/download/v0.3.2/commit-wisp-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5c7ca26ce702ab82eb26c7dabf940195acf71e084d09eef8cb2c33ff98ee42ba"
+      url "https://github.com/siray-code/commit-wisp/releases/download/v1.0.0/commit-wisp-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "964a9d8d66f4cf1643ec52662c74ea3459b0615ba3cc4fd1216859471cf10857"
     else
-      url "https://github.com/siray-code/commit-wisp/releases/download/v0.3.2/commit-wisp-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cf9e7093380818d16bf322c6716545f80de3c4db7aba79da916c0d181a4570c6"
+      url "https://github.com/siray-code/commit-wisp/releases/download/v1.0.0/commit-wisp-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "182cc66b1d09ae2aaf4305f466055a2e21be49179fffebb56ba49a79a762f269"
     end
   end
 
